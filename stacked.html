@@ -23,5 +23,8 @@
     .y("total")         // key to use for y-axis
     .x("año")          // key to use for x-axis
     .time("año")       // key to use for time
+  .shape({
+      "interpolate": "basis"  // takes accepted values to change interpolation type
+    })
     .draw()             // finally, draw the visualization!
 </script>
